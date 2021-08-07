@@ -1,0 +1,260 @@
+@import 'fonts.css';
+
+
+
+:root {
+    --body: #0E0E0E;
+    --text: #FFFFFF; 
+    --title: #85CCDC;
+    --linkHover: #85CCDC;
+    --font: 'Roboto Condensed'; 
+    --number: #600E09; 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-family: var(--font);
+    background: var( --body);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* header star  */
+
+.header {
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.header__banner {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin-top: 60px;
+}
+
+.header__logo {
+    margin-top: 110px;
+}
+
+.nav {
+    height: 170px;
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+    
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.list {
+   
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin-right: 25px;
+
+}
+
+.link {
+    font-family: var(--font);
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--text);
+    transition: 450ms;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 58px;
+
+}
+
+.link:hover {
+    text-decoration-line: underline;
+    color: var(--linkHover);
+}
+
+
+/* header end  */
+
+
+/* section star */
+
+
+
+.section__text {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.section__title {
+    font-family: var(--font);
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text);
+    margin: 100px;
+    text-align: center;
+
+}  
+
+
+
+.section__txt-left {
+    margin-left:90px;
+    margin-right: 190px;
+}
+
+.section__txt {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E5E5;
+    margin-bottom: 17px;
+    width: 205px;
+}
+
+
+.section__txt-right {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E5E5;
+    margin-bottom: 17px;
+    width: 555px;
+    margin-right: 200px;
+}
+
+
+/* YOU TUBE */
+
+.section__you-tube {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+.section__banner {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+} 
+
+.section__tube-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section__tube-txt {
+    font-family: var(--font);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    color: var(--title);
+}
+
+.section__tube-txt:nth-child(1) {
+    margin-top: 330px;
+    margin-left: 270px;
+}
+
+.section__tube-txt:nth-child(2) {
+    margin-left: 710px;
+}
+
+
+.you-tube-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 340px;
+}
+
+.tube-txt {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--text);
+    text-align: center;
+    margin-top: 39px;
+    margin-left: 12px;
+}
+
+
+/* sezon */
+
+.sezon__title {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--text);
+    margin: 100px 0;
+    text-align: center;
+}
+
+.sezon__1, .sezon__3 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.sezon__img {
+    margin-right: 75px;
+}
+
+
+
+.sezon__img-6 {
+    margin-right: 75px;
+    position: relative;
+    
+}
+
+.sezon__img-ban-6 {
+    position: absolute;
+    margin-top: -41px;
+    z-index: -1;
+}
+
+.sezon__img-ban {
+    margin-top: -41px;
+}
+
+
+.sezon__number-w {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 96px;
+    color: var(--number);
+}
+
+
+
+/* section end */
